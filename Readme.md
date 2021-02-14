@@ -1,7 +1,7 @@
 docker build -t saurabhdevo1/demo-webapp:latest .
 docker run -d -p 8081:8080  saurabhdevo1/demo-webapp:latest
 http://localhost:9090/Demo-CICD/
-echo "This is for Test Purpose 2 "
+echo "This is for Test Purpose 3 "
 #Script to run cd pipeline
 echo 'process is running'
 cd /usr/share/tomcat7/bin
